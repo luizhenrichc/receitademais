@@ -1,4 +1,4 @@
-aconst path = require('path')
+const path = require('path')
 
 module.exports = {
 	"config": path.resolve('./src/config', 'config.json'),

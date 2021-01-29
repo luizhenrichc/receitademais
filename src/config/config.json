@@ -1,14 +1,14 @@
 {
   "development": {
-    "storage": "./database.sqlite3",
-    "dialect": "sqlite"
+    "storage": "./database.mssql",
+    "dialect": "mssql"
   },
   "test": {
-    "storage": "./database.sqlite3",
-    "dialect": "sqlite"
+    "storage": "./database.mssql",
+    "dialect": "mssql"
   },
   "production": {
-    "storage": "./database.sqlite3",
-    "dialect": "sqlite" 
+    "storage": "./database.mssql",
+    "dialect": "mssql" 
   }
 }
