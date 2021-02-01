@@ -42,6 +42,7 @@
       <router-view />
     </q-page-container>
   </q-layout>
+
 </template>
 
 <script>
@@ -58,7 +59,7 @@ const linksData = [
     title: 'Atribuídas a mim',
     caption: 'listas de outros usuários',
     icon: 'add_task',
-    link: 'atividades-atribuidas'
+    link: '/atividades-atribuidas'
   }
 ]
 
